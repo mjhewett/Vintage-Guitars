@@ -57,6 +57,8 @@ clear: both;
 
 }
 
+// home page stuff
+
 #gitfiddlepics{
 
 
@@ -103,11 +105,105 @@ li{
 
 }
 
+// end home page stuff
+
+// add page
+
+.addGeet{
+
+font-family: 'Quicksand', sans-serif;
+color: white;
+}
+
+
+button{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  color: white;
+  background-color: #FE586B;
+  border: 1px solid #CBFEFE;
+  height: 160px;
+}
+
+// end add page
+
+
+//single view
+
+.geetar{
+
+  height: 600px;
+  width: 600px;
+ margin-left: 405px;
+
+}
+
+
+.wowzer{
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+
+.yayzer{
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#delete{
+  float: right;
+  margin-right: 30px;
+  background-color: #66D9EF;
+  color: #FE586B;
+  border: 1px solid #FE586B;
+  border-radius: 5px;
+  padding: 4px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+}
+
+
+// footer
 footer{
 
   clear: both;
   height: 100px;
   background-color: #FE586B;
   margin-top: 15px;
+}
+
+
+.footSpan{
+
+color: white;
+font-family: 'Quicksand', sans-serif;
+margin-left: 5px;
+margin-top: 15px;
+font-size: 15px;
 
 }
+
+.socMed{
+
+  margin-left: 5px;
+  margin-top: 50px;
+
+}
+
+
+// yay!
+
+
+
+
+
+
+
+
+
+
+
