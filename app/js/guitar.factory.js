@@ -30,16 +30,27 @@
         };
 
         var getSingle = function (gid){
-          return $http.get(PARSE.URL + 'classes/guitars' + gid, PARSE.CONFIG);
+          return $http.get(PARSE.URL + 'classes/guitars/' + gid, PARSE.CONFIG);
         };
 
+        var deleteMe = function (gid) {
 
+          return $http.delete(PARSE.URL + 'classes/guitars/' + gid, PARSE.CONFIG)
+
+            .success(function () {
+
+              $location.path('/');
+
+            });
+
+        };
 
         return {
 
           getGuit: getGuit,
           addGuit: addGuit,
-          getSingle: getSingle
+          getSingle: getSingle,
+          deleteMe: deleteMe
         };
 
 

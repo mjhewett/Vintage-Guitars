@@ -5,22 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <link rel="stylesheet" href="css/vendor/foundation.css">
+  <link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/vendor/font-awesome.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body ng-app="Guitars">
 
-  <header>
+  <header class="head">
     <h1>Vintage Guitar Guide</h1>
 
       <nav>
-        <a href="#/">Guitars</a> |
-        <a href="#/add">Add Guitar</a> |
+        <a href="#/">Guitars</a>
+        <br>
+        <a href="#/add">Add Guitar</a>
+        <br>
         <a href="#/about">About</a>
       </nav>
 
   </header>
 
-  <div ng-view>
+
+
+  <div class="container" ng-view>
   </div>
 
 
@@ -31,7 +37,17 @@
 
 
 
+<footer>
 
+  <div class="socMed">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+  </div>
+
+
+
+</footer>
 
 
   <!-- VENDOR -->

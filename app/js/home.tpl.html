@@ -1,22 +1,38 @@
-<h2>home</h2>
+<h2></h2>
 
 
 <div id="gitfiddlepics">
-<ul>
-    <li ng-repeat="g in guits">
+  <ul>
+      <li ng-repeat="g in guits" id="{{ objectId }}" class="picList">
+      <h2 class="info">
+      {{ g.year }}
+      {{ g.brand }}
+      {{ g.model }}
+      </h2>
+      <br>
+     <span class="pricey">Price: {{ g.price }}</span>
 
-    {{ g.price }}
+      <a href="#/{{ g.objectId }}">
+      <img class="guitImg" src="{{g.img}}"></a>
+      <br>
+      <hr>
 
-
-
-    </li>
-
-
-
-</ul>
-
-
-
-
-
+      </li>
+    </ul>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+body {
+  background-color: #3D3D3A;
+  max-height: 100%;
+  font-family: 'Quicksand', sans-serif;
+  color: white; }
+
+header {
+  color: white;
+  background-color: #FE586B;
+  height: 120px; }
+
+h1 {
+  margin-left: 50px;
+  margin-top: 25px;
+  color: white;
+  float: left;
+  font-family: 'Quicksand', sans-serif; }
+
+nav {
+  color: white;
+  float: right;
+  margin-right: 60px; }
+
+a {
+  font-size: 25px;
+  color: white; }
+
+a:hover {
+  transition: ease 0.6s; }
+
+.container {
+  clear: both; }
+
+#gitfiddlepics {
+  width: 60%;
+  display: block;
+  border: 2px solid #FE586B;
+  padding-bottom: 25px;
+  margin-left: 350px;
+  padding-left: 15px; }
+
+li {
+  list-style: none;
+  padding-right: 20px; }
+
+.guitImg {
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 15px;
+  border: 1px solid #FE586B; }
+
+.info {
+  font-family: 'Quicksand', sans-serif;
+  color: white; }
+
+.pricey {
+  margin-left: 15px;
+  font-size: 40px; }
+
+footer {
+  clear: both;
+  height: 100px;
+  background-color: #FE586B;
+  margin-top: 15px; }

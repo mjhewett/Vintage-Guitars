@@ -28,25 +28,34 @@ function ($routeProvider){
 
     })
 
-
   .when('/add', {
-
     controller: 'GuitCtrl',
     templateUrl : 'js/add.tpl.html'
-
   })
 
   .when('/about', {
-
     controller: 'GuitCtrl',
     templateUrl: 'js/about.tpl.html'
-    });
+    })
+
+  .when('/:gid', {
+    controller: 'SingleCtrl',
+    templateUrl: 'js/single.tpl.html'
+  });
 
   }
 
 ]);
 
+
 }());
+
+
+
+
+
+
+
 
 
 

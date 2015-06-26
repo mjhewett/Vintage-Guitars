@@ -1,0 +1,16 @@
+<h3>{{ g.year }} {{ g.brand }} {{ g.model }}</h3>
+
+
+
+<div class="imgCard">
+  <div class="dark card">
+    <img src="{{ g.img }}">
+      <div class="card-divider">
+      <span>Price : {{g.price}}</span> <span ng-click="deleteMe(g.objectId)" id="delete">X</span>
+      </div>
+  <div class="card-section">
+  </div>
+  </div>
+</div>
+
+
