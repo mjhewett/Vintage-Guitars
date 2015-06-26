@@ -1,11 +1,11 @@
 <h2>Add a Guitar to Our List</h2>
 
-<form>
-  <input type="text" placeholder="Image URL">
-  <input type="text" placeholder="Brand">
-  <input type="text" placeholder="Model">
-  <input type="text" placeholder="Year">
-  <input type="text" placeholder="Price">
+<form ng-submit="addGuit(g)">
+  <input ng-model="g.img" type="text" placeholder="Image URL">
+  <input ng-model="g.brand" type="text" placeholder="Brand">
+  <input ng-model="g.model" type="text" placeholder="Model">
+  <input ng-model="g.year" type="text" placeholder="Year">
+  <input ng-model="g.price" type="text" placeholder="Price">
 
 
   <button>Add Git Fiddle</button>

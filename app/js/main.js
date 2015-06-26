@@ -2,7 +2,7 @@
 
 'use strict';
 
-angular.module('Guitars', ['ngRoute'])
+ var app = angular.module('Guitars', ['ngRoute'])
 
 .constant('PARSE', {
 
@@ -23,7 +23,7 @@ function ($routeProvider){
 
     $routeProvider.when('/', {
 
-      controller: 'GuitarPage',
+      controller: 'GuitCtrl',
       templateUrl: 'js/home.tpl.html'
 
     })
@@ -31,14 +31,14 @@ function ($routeProvider){
 
   .when('/add', {
 
-    controller: 'GuitarPage',
+    controller: 'GuitCtrl',
     templateUrl : 'js/add.tpl.html'
 
   })
 
   .when('/about', {
 
-    controller: 'GuitarPage',
+    controller: 'GuitCtrl',
     templateUrl: 'js/about.tpl.html'
     });
 

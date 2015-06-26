@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Project Name</title>
+  <title>Vintage Guitar Guide</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <link rel="stylesheet" href="css/vendor/foundation.css">
@@ -12,15 +12,15 @@
   <header>
     <h1>Vintage Guitar Guide</h1>
 
-      <nav ng-controller="navBtns">
-        <a href="#/">Guitars</a>
-        <a href="/#add">Add Guitar</a>
-        <a href="/#about">About</a>
+      <nav>
+        <a href="#/">Guitars</a> |
+        <a href="#/add">Add Guitar</a> |
+        <a href="#/about">About</a>
       </nav>
 
   </header>
 
-  <div class="container" ng-view>
+  <div ng-view>
   </div>
 
 
@@ -38,12 +38,15 @@
   <script src="js/vendor/jquery.js"></script>
   <script src="js/vendor/underscore.js"></script>
   <script src="js/vendor/angular.js"></script>
+  <script src="js/vendor/angular-route.js"></script>
 
   <!-- MAIN -->
   <script src="js/main.js"></script>
 
+
   <script src="js/guitar.controller.js"></script>
-  <script src="js/nav.controller.js"></script>
+  <script src="js/singleGuitar.controller.js"></script>
+  <script src="js/guitar.factory.js"></script>
 
 </body>
 </html>
