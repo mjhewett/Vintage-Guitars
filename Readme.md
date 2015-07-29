@@ -1,6 +1,6 @@
 ## Vintage Guitar Site
 
-> The purpose of this project is to make a page with Angular JS.
+> The purpose of this project is to make a page with Angular JS, using Parse as a backend.
 > There is a main page with all guitars posted by users, and a single view page, where a user can see an enlarged image of the guitar they select.
 
 
