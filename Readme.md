@@ -1,6 +1,7 @@
-## Welcome to My Angular Project
+## Vintage Guitar Site
 
-> I am your Readme.md file, you should probably update me.
+> The purpose of this project is to make a page with Angular JS.
+> There is a main page with all guitars posted by users, and a single view page, where a user can see an enlarged image of the guitar they select.
 
 
 ## Usage
