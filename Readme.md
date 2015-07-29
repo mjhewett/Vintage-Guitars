@@ -2,8 +2,7 @@
 
 > The purpose of this project is to make a page with Angular JS, using Parse as a backend.
 > There is a main page with all guitars posted by users, and a single view page, where a user can see an enlarged image of the guitar they select.
-
-
+>Deployed Site: http://development.maxhassignment22.divshot.io/#/
 ## Usage
 
 This template contains some simple `gulp` tasks. They are as follows:
